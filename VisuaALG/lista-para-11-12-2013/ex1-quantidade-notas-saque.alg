@@ -3,7 +3,7 @@ algoritmo "ex1-quantidade-notas-valorSaque"
 var
     valorSaque, nota100, nota50, nota20, nota10, nota5 :inteiro
 inicio
-    escreval("Valor do valorSaque: ")
+    escreval("Valor do Saque: ")
     leia(valorSaque)
     
     nota100 <- valorSaque div 100
