@@ -7,19 +7,19 @@ inicio
     leia(valorSaque)
     
     nota100 <- valorSaque div 100
-    valorSaque <- valorSaque mod 50
+    valorSaque <- valorSaque mod 100
     
     nota50 <- valorSaque div 50
-    valorSaque <- valorSaque % 50
+    valorSaque <- valorSaque mod 50
     
     nota20 <- valorSaque div 20
-    valorSaque <- valorSaque % 20
+    valorSaque <- valorSaque mod 20
 
     nota10 <- valorSaque div 10
-    valorSaque <- valorSaque % 10
+    valorSaque <- valorSaque mod 10
 
     nota5 <- valorSaque div 5
-    valorSaque <- valorSaque % 5
+    valorSaque <- valorSaque mod 5
 
     escreval("| NOTAS (R$) | QUANTIDADES DE NOTAS")
     escreval("| 100        |", nota100)
