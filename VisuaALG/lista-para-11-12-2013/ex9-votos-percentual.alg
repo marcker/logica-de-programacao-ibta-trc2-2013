@@ -1,4 +1,4 @@
-algoritmo "ex11-votos-percentual"
+algoritmo "ex09-votos-percentual"
 
 var
     totalEleitores, somaVotos, votosBrancos, votosNulos, votosValidos :inteiro
@@ -33,7 +33,7 @@ inicio
     escreval("Quantos foram os votos válidos?")
     leia(votosValidos)
     
-    somaVotos <- soma + votosValidos
+    somaVotos <- somaVotos + votosValidos
 
     enquanto (votosValidos > totalEleitores) ou (somaVotos > totalEleitores) faca
         votosValidos <- 0
